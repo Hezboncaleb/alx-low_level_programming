@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Is the entry point of the program
- *
- * Return : 0 (Success)
+ *  main - Entry point
+ *  Return: 0 on Success, non-zero otherwise
  */
 
-int main(void)
+int  main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
