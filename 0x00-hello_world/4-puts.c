@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints a newline using the puts function
+ * main - Is the entry point of the program
  *
  * Return : 0 on Success
  */
