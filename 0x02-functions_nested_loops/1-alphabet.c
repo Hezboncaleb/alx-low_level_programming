@@ -2,18 +2,20 @@
 
 /**
  * print_alphabet - Make alphabet
- *
  * Return: void
  */
 
 void print_alphabet(void)
-
 {
-	char c;
+	char ch;
 
-	for (c = 'a'; c <= '2'; c++)
+	ch = 'a';
+
+	while (ch <= 'z')
 	{
-	_putchar(c);
+		_putchar(ch);
+		ch++;
 	}
+
 	_putchar('\n');
 }
