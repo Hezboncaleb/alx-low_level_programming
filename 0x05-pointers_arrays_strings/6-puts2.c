@@ -5,22 +5,16 @@
  * @str: The string
  */
 
-void puts_half(char *str)
+void puts2(char *str)
 {
-	int index = 0,
-	    len = 0, n;
 
-	while (str[index++])
-		len++;
+	int i;
 
-	if ((len % 2) == 0)
-		n = len / 2;
-
-	else
-		n = (len + 1) / 2;
-
-	for (index = n; index < len; index++)
-		_putchar(str[index]);
-
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		if (i % 2 == 0)
+			_putchar(str[i]);
+	}
 	_putchar('\n');
+
 }
